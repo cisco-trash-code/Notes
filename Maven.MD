@@ -7,7 +7,13 @@
   
 -  When building a Java project we may need additional JAR files. One approach is to download the JAR files and manually add to our class-path. We tell the maven the projects we are working with. Maven will go out and download the JAR files for those projects for us. And maven will make those JAR files available during the compile/run.
 
-	![maven img](../java-notes/data/mvn01.png)
+	![maven img](https://github.com/sovisrushain/Notes/blob/main/data/mvn01.png?raw=true)
+
+    1. Read Config file
+    2. Check local Repo
+    3. Get from remote Repo
+    4. Save in the local Repo
+    5. Build and Run
 
 - When maven retrieves a project dependency it will also download the supporting dependencies. 
 
