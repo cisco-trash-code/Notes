@@ -2,8 +2,7 @@
 
 ## General
 
-- In Java, every value is either a reference to an object, or it belongs to one of the eight
-- Floating-point numbers have limited precision. Not every value can be represented precisely,
+- In Java, every value is either a reference to an object, or it belongs to one of the eight Floating-point numbers have limited precision. Not every value can be represented precisely,
 and roundoff errors can occur.
 primitive types.
 - A final variable is a constant. Once its value has been set, it cannot be changed. Many programmers use all-uppercase names for constants. That way, it is easy to distinguish between variables and constants.
@@ -46,3 +45,4 @@ object, is called an **accessor method**. In contrast, a method whose purpose is
 - Instance variables are initialized to a default value, but you must initialize local variables.
 - Encapsulation is the process of hiding implementation details and providing methods for data access. Encapsulation allows a programmer to use a class without having to know its
 implementation.
+
